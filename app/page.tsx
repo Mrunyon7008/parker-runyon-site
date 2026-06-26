@@ -284,10 +284,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section
-          id="contact"
-          style={{ borderBottom: "1px solid var(--border)" }}
-        >
+        <section id="contact">
           <div className="contact-panel">
             <h2>Let&apos;s talk.</h2>
             <p>
@@ -306,6 +303,35 @@ export default function Home() {
               </a>
               <a href="/resume.pdf" className="btn btn-ghost">
                 Resume (PDF)
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="colophon"
+          style={{ borderBottom: "1px solid var(--border)" }}
+        >
+          <div className="colophon">
+            <div className="colophon-tag">// about_this_site</div>
+            <p>
+              Built with <strong>Claude Code</strong>, Anthropic&apos;s agentic
+              coding CLI. Deployed on <strong>Vercel</strong> via GitHub
+              integration — push to <code>main</code> ships. Custom domain
+              wired through Vercel DNS.
+            </p>
+            <div className="colophon-stack">
+              <span className="stack-chip">Next.js 15</span>
+              <span className="stack-chip">TypeScript</span>
+              <span className="stack-chip">Vercel</span>
+              <span className="stack-chip">Claude Code</span>
+              <a
+                href="https://github.com/Mrunyon7008/parker-runyon-site"
+                target="_blank"
+                rel="noreferrer"
+                className="stack-chip colophon-link"
+              >
+                → source
               </a>
             </div>
           </div>
