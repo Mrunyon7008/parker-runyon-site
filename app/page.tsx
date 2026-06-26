@@ -5,7 +5,6 @@ export default function Home() {
     <>
       <div className="topbar">
         <div className="topbar-inner">
-          <span className="topbar-id">PARKER_RUNYON.STATUS</span>
           <nav>
             <a href="#about">about</a>
             <a href="#projects">projects</a>
