@@ -296,7 +296,9 @@ export default function Home() {
                 Email Me
               </a>
               <a
-                href="https://linkedin.com/in/REPLACE-ME"
+                href="https://www.linkedin.com/in/myles-runyon/"
+                target="_blank"
+                rel="noreferrer"
                 className="btn btn-ghost"
               >
                 LinkedIn
