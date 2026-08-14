@@ -22,7 +22,7 @@ export default function Home() {
         <section className="hero" style={{ borderTop: "none" }}>
           <div className="eyebrow">Network Operations &amp; Process Tooling</div>
           <h1>
-            Six years keeping
+            10 years keeping
             <br />
             networks <span className="accent">up</span>.<br />
             Now building the
