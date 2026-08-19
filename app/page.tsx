@@ -292,7 +292,7 @@ export default function Home() {
               roles. Happy to walk through the tooling above in more detail.
             </p>
             <div className="contact-links">
-              <a href="mailto:hello@parker-runyon.com" className="btn btn-primary">
+              <a href="mailto:ParkerRunyon@gmail.com" className="btn btn-primary">
                 Email Me
               </a>
               <a
